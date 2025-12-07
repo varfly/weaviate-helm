@@ -609,7 +609,6 @@ spec:
         {{- include "weaviate.selectorLabels" . | nindent 8 }}
     spec:
       accessModes: [ "ReadWriteOnce" ]
-      reclaimPolicy: Delete
       storageClassName: {{ .Values.storage.storageClassName }}
       resources:
         requests:
