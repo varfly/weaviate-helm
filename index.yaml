@@ -3,7 +3,7 @@ entries:
   weaviate:
   - apiVersion: v2
     appVersion: 1.34.0
-    created: "2025-12-07T10:11:46.994766+08:00"
+    created: "2025-12-07T10:12:14.812252+08:00"
     description: A Helm Chart to run Weaviate with all dependencies
     digest: d2afa524e02eb7ece23bfb6976f7e578700854b640443d2f8f04ee6d1f8e85d8
     home: https://github.com/varfly/weaviate-helm
@@ -15,7 +15,7 @@ entries:
     version: 17.7.2
   - apiVersion: v2
     appVersion: 1.34.0
-    created: "2025-12-07T10:11:47.005886+08:00"
+    created: "2025-12-07T10:12:14.825527+08:00"
     description: A Helm Chart to run Weaviate with all dependencies
     digest: d2afa524e02eb7ece23bfb6976f7e578700854b640443d2f8f04ee6d1f8e85d8
     home: https://github.com/varfly/weaviate-helm
@@ -27,7 +27,7 @@ entries:
     version: 17.7.2
   - apiVersion: v2
     appVersion: 1.34.0
-    created: "2025-12-07T10:11:46.99067+08:00"
+    created: "2025-12-07T10:12:14.808022+08:00"
     description: A Helm Chart to run Weaviate with all dependencies
     digest: 790463c2e3947555e74c4d99d9ee199fb6e903cbe60bb480504376648a9da3e3
     home: https://github.com/varfly/weaviate-helm
@@ -39,7 +39,7 @@ entries:
     version: 17.7.1
   - apiVersion: v2
     appVersion: 1.34.0
-    created: "2025-12-07T10:11:47.000335+08:00"
+    created: "2025-12-07T10:12:14.819785+08:00"
     description: A Helm Chart to run Weaviate with all dependencies
     digest: 790463c2e3947555e74c4d99d9ee199fb6e903cbe60bb480504376648a9da3e3
     home: https://github.com/varfly/weaviate-helm
@@ -49,4 +49,4 @@ entries:
     urls:
     - https://varfly.github.io/weaviate-helm/weaviate/weaviate-17.7.1.tgz
     version: 17.7.1
-generated: "2025-12-07T10:11:46.984569+08:00"
+generated: "2025-12-07T10:12:14.799442+08:00"
