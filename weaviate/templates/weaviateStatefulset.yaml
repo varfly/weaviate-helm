@@ -605,9 +605,11 @@ spec:
   - metadata:
       name: {{ include "weaviate.fullname" . }}-data
       labels:
+        app.varfly.com/instance: {{ include "weaviate.fullname" . }}
         {{- include "weaviate.selectorLabels" . | nindent 8 }}
     spec:
       accessModes: [ "ReadWriteOnce" ]
+      reclaimPolicy: Delete
       storageClassName: {{ .Values.storage.storageClassName }}
       resources:
         requests:
