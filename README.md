@@ -8,10 +8,21 @@ Helm chart for Weaviate application. Weaviate can be deployed to a Kubernetes cl
 Please refer to Helm's [documentation](https://helm.sh/docs/) on how to get started.
 
 Once Helm is set up properly, add the repo as follows:
+
+**使用官方仓库:**
 ```zsh
 helm repo add weaviate https://weaviate.github.io/weaviate-helm
 helm install my-weaviate weaviate/weaviate
 ```
+
+**使用本仓库 (支持多实例部署):**
+```zsh
+helm repo add varfly-weaviate https://varfly.github.io/weaviate-helm
+helm repo update
+helm install my-weaviate varfly-weaviate/weaviate
+```
+
+> **注意**: 本仓库已修复多实例部署时的资源名称冲突问题，可以在同一 namespace 中安装多个 Weaviate 实例。
 
 Documentation can be found [here](https://weaviate.io/developers/weaviate/installation/kubernetes).
 

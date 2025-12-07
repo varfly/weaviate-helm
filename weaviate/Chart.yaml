@@ -1,13 +1,13 @@
 apiVersion: v2
 name: weaviate
 description: A Helm Chart to run Weaviate with all dependencies
-home: https://github.com/weaviate/weaviate
+home: https://github.com/varfly/weaviate-helm
 type: application
 
 # This is the chart version. This version number should be incremented each time you make changes
 # to the chart and its templates, including the app version.
 # Versions are expected to follow Semantic Versioning (https://semver.org/)
-version: 17.7.0
+version: 17.7.1
 
 # This is the version number of the application being deployed. This version number should be
 # incremented each time you make changes to the application. Versions are not expected to
