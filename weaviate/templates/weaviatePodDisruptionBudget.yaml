@@ -3,15 +3,13 @@
 apiVersion: policy/v1
 kind: PodDisruptionBudget
 metadata:
-  name: weaviate
+  name: {{ include "weaviate.fullname" . }}
   labels:
-    name: weaviate
-    app: weaviate
-    app.kubernetes.io/name: weaviate
-    app.kubernetes.io/managed-by: {{ .Release.Service }}
+    {{- include "weaviate.labels" . | nindent 4 }}
 spec:
   selector:
     matchLabels:
-      app: weaviate
+      {{- include "weaviate.selectorLabels" . | nindent 6 }}
+      app: {{ include "weaviate.name" . }}
   {{- toYaml $podDisruptionBudget.spec | nindent 2 }}
 {{- end -}}
